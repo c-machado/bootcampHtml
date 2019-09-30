@@ -21,7 +21,14 @@
         <main>
             <article>
                 <section id="about">
-                    <img src="Imgs/fotoHV.jpg" alt="Proflie picture's Carolina">
+                    <svg>
+                        <rect width="800px" height="800px" fill="gray"></rect>
+                    </svg>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./Imgs/fotoHV.jpg" >
+                        <source media="(max-width: 768px)" srcset="https://via.placeholder.com/150" >
+                        <img src="Imgs/fotoHV.jpg" alt="Proflie picture's Carolina" >
+                    </picture>
                     <h1><strong>Carolina Machado</strong></h1>
                     <h2>Senior QA Analyst</h2>
                     <ul>
@@ -39,6 +46,7 @@
                         </li>
                     
                     </ul>
+               
                 </section>
                 <section>
                     <h1>About</h1>
@@ -134,8 +142,8 @@
                             <input type="text" name="name" id="name" placeholder="name">
                         </div>
                         <div>
-                            <label for="emali">Emali</label>
-                            <input type="text" name="emali" id="emali" required placeholder="emali">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" required placeholder="email">
                         </div>    
                         
                         <div>
@@ -148,15 +156,27 @@
                 <aside>
                     <section>
                         <h2>References</h2>
-                        <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="/Imgs/fotoref1.png" >
+                            <source media="(max-width: 768px)" srcset="https://via.placeholder.com/150" >
+                            <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon" >
+                        </picture>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non convallis dolor,
                                 ac volutpat dui. Nulla ac turpis metus.
                         </p>
-                        <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="/Imgs/fotoref1.png" >
+                            <source media="(max-width: 768px)" srcset="https://via.placeholder.com/150" >
+                            <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon" >
+                        </picture>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non convallis dolor,
                                 ac volutpat dui. Nulla ac turpis metus.
                         </p>
-                        <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="/Imgs/fotoref1.png" >
+                            <source media="(max-width: 768px)" srcset="https://via.placeholder.com/150" >
+                            <img src="https://via.placeholder.com/150" alt="profile picture's reference jhon" >
+                        </picture>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non convallis dolor,
                                 ac volutpat dui. Nulla ac turpis metus.
                         </p>
